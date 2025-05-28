@@ -1,6 +1,6 @@
 # Create Gift Refund records with FinDock for Fundraising & Stripe
 
-The components in this repository extend how refunds are synced back to Salesforce from the Stripe dashboard. Instead of simply updating the Status on the Gift Transaction to "Fully Refunded," refunds processed through the Stripe dashboard will create a Gift Refund record to be attached to the Gift Transaction, which will reflect the appropriate values in the standard CurrentAmount and RefundedAmount fields.
+The components in this repository extend how refunds are handled in the Salesforce Nonprofit Cloud data model from the Stripe dashboard. Instead of simply updating the Status on the Gift Transaction to "Fully Refunded," refunds processed through the Stripe dashboard will create a Gift Refund record to be attached to the Gift Transaction, which will reflect the appropriate values in the standard CurrentAmount and RefundedAmount fields.
 
 ## Requirements
 
