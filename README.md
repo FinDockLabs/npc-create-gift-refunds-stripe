@@ -28,7 +28,7 @@ Custom Fields
 
 4. Find the record with the name "Inbound Report: PaymentHub-Stripe/charge.refunded"
 
-5. Copy the JSON from the FILE and paste into the Rules field. Populate the Target field with "-" 
+5. Copy the text from [HERE](/JSONChargeRefunded) and paste into the Rules field. Populate the Target field with "-".
 
 6. Test by putting through a small payment and refunding through the Stripe dashboard. 
 
