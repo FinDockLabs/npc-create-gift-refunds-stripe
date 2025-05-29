@@ -26,7 +26,7 @@ Custom Fields
 
 3. Once installed, navigate to the "Guided Matching Setups" Tab where you will find a List View of all of the Guided Matching Rulesets (be careful not to select the "Guided Matching Setup" Tab which is the visual representation of the ruleset builder)
 
-4. Find the record with the name "Inbound Report: PaymentHub-Stripe/charge.refunded" [see screenshare](https://screen.studio/share/Rgly8317)
+4. Find the record with the name "Inbound Report: PaymentHub-Stripe/charge.refunded" ([see screenshare](https://screen.studio/share/Rgly8317))
 
 5. Copy the text from [HERE](/JSONChargeRefunded) and paste into the Rules field. Populate the Target field with "-".
 
