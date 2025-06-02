@@ -1,3 +1,8 @@
+<a href="https://githubsfdeploy.herokuapp.com?owner=FinDockLabs&repo=npc-create-gift-refunds-salesforce&ref=main">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 # Create Gift Refund records with FinDock for Fundraising & Stripe
 
 The components in this repository extend how refunds are handled in the Salesforce Nonprofit Cloud data model from the Stripe dashboard. Instead of simply updating the Status on the Gift Transaction to "Fully Refunded," refunds processed through the Stripe dashboard will create a Gift Refund record to be attached to the Gift Transaction, which will reflect the appropriate values in the standard CurrentAmount and RefundedAmount fields.
@@ -18,6 +23,7 @@ Custom Tab
 Custom Fields
 - cpm__Inbound_Report__c.Gift_Transaction__c
 - cpm__Inbound_Report__c.Gift_Refund__c
+- cpm__Inbound_Report__c.Created_Date_Date_Only__c
 
 ## Installation
 1. Ensure your User has permissions to all objects referenced by the components in this repository. This includes FinDock permissions and Fundraising permissions.
