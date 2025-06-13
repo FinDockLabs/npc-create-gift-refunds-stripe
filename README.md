@@ -1,7 +1,12 @@
+Deploy to Production/Developer Edition Orgs :
+
 <a href="https://githubsfdeploy.herokuapp.com?owner=FinDockLabs&repo=npc-create-gift-refunds-stripe&ref=main">
   <img alt="Deploy to Salesforce (Production/Developer Editions)"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
+
+
+Deploy to Sandboxes : 
 
 <a href="https://githubsfdeploy-sandbox.herokuapp.com?owner=FinDockLabs&repo=npc-create-gift-refunds-stripe&ref=main">
   <img alt="Deploy to Salesforce (Sandbox)"
